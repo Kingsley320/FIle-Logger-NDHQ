@@ -7,7 +7,7 @@ import {useRouter} from 'next/navigation';
 import FileRequestForm from "@components/FileRequestForm";
 
 
-const requestFile = () => {
+const RequestFile = () => {
     const router = useRouter();
     const {data: session} = useSession();
     const [submitting, setSubmitting] = useState(false);
@@ -71,4 +71,4 @@ const requestFile = () => {
   )
 }
 
-export default requestFile
+export default RequestFile

@@ -1,0 +1,55 @@
+What Need To Be Done
+
+
+1.  User Authentication and Authorization:
+Implement a user authentication system where each user has a unique username and password.
+Define different user roles such as Directors, Deputy Directors, Assistant Directors, and regular Employees.
+Use role-based access control (RBAC) to restrict access to certain features and functionalities based on user roles.
+Store user information securely in a database.
+
+
+2.  Logging Files and Mails:
+Create a database schema for logging files and mails, similar to the analog register book.
+Fields in the schema include: date, file/mail name, office coming from, office going to, signatures for receipt, etc.
+Implement CRUD operations to add, retrieve, update, and delete file/mail entries.
+Ensure proper validation of data entered into the system.
+
+
+3.  Requesting Files from the Pool:
+Design a request form for employees to fill when requesting files from the pool.
+Include fields such as employee details (name, office), file number, date of request, and signature for authentication.
+Upon submission, the request goes to the head of the registry for approval.
+If approved, dispatch the requested file to the requesting office.
+
+
+4.  Monitoring File Locations:
+Implement a mechanism to track the location of every file in the system.
+Store information about the current location of each file, including the office it was last received in or if it's in the pool.
+Provide a search feature to locate specific files based on file number or other criteria.
+
+
+5.  Additional Features:
+Logging system actions: Keep a log of all actions performed within the system, including login attempts, file accesses, and user management operations.
+Notifications: Implement email notifications for important events such as file requests, approvals, and dispatches.
+Reporting: Generate reports on file movements, request statistics, and user activities for monitoring and auditing purposes.
+Dashboard: Create a dashboard interface for Directors to monitor system activities, file locations, and pending requests.
+
+
+6.  Security Measures:
+Implement HTTPS to encrypt communication between the client and server.
+Use secure authentication mechanisms such as JSON Web Tokens (JWT) to prevent unauthorized access.
+Implement input validation and sanitize user inputs to prevent common security vulnerabilities such as SQL injection and cross-site scripting (XSS).
+Regularly update and patch the system to address security vulnerabilities.
+
+
+7.  Testing and Quality Assurance:
+Conduct thorough testing of the system to ensure functionality, security, and reliability.
+Perform unit tests, integration tests, and end-to-end tests to validate different components of the system.
+Conduct security audits to identify and address potential security flaws.
+Involve stakeholders in user acceptance testing (UAT) to gather feedback and make necessary improvements.
+
+
+8.  Documentation and Training:
+Document the system architecture, data schema, API endpoints, and user roles.
+Provide comprehensive user manuals and training materials for users to understand how to use the system effectively.
+Conduct training sessions for administrators and users to familiarize them with the system's features and functionalities.

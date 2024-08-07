@@ -1,0 +1,29 @@
+  {
+      "_id": "6675b445667769f16f053ee8",
+      "entryOperator": {
+          "_id": "6675b20a667769f16f053ed9",
+          "email": "kingsowolabs@gmail.com",
+          "username": "seyiowolabi",
+         "image": "https://lh3.googleusercontent.com/a/ACg8ocJbfKtiGjecPOLzUmyNR-DNxcIesLyxUmRTVDdVaMawxbWJgVtX=s96-c",
+          "stateOfOrigin": "Not Yet Gotten",
+          "dob": "2024-04-08T10:31:36.368Z",
+          "dofa": "2024-04-08T10:31:36.368Z",
+          "dopa": "2024-04-08T10:31:36.368Z",
+          "confirmDate": "2024-04-08T10:31:36.368Z",
+          "rank": "Not Yet Gotten",
+          "location": "Not Yet Gotten",
+          "department": "Not Yet Gotten",
+          "retirementDueDate": "Not Yet Gotten",
+          "dateCreated": "2024-06-21T16:51:28.706Z",
+          "dateModified": "2024-06-21T16:51:28.706Z",
+          "__v": 0
+      },
+      "fileNo": "p.11111",
+      "fileName": "Oluwatomi Owolabi",
+      "description": "Another short description",
+      "whereFrom": "DD",
+      "goingTo": "AD",
+      "dateCreated": "2024-06-21T16:51:28.800Z",
+      "dateModified": "2024-06-21T16:51:28.800Z",
+      "__v": 0
+  }
